@@ -15,6 +15,25 @@
 
 > 目前可以通过此 API 获取的权限只有 `power-app:admin`.
 
+#### 示例数据
+
+```json
+{
+  "mobile": "18600000000",
+  "password": "12345678",
+  "user": "5ac8ec44-30b6-4c08-bd43-cc811ed90045",
+  "permissions": ["power-app:admin"]
+}
+```
+
 ### 响应数据
 
 `string` 访问令牌
+
+#### 示例数据
+
+```json
+{
+  "data": "e8ee5b2a-a717-4f46-8908-b07e208c3b2e"
+}
+```
